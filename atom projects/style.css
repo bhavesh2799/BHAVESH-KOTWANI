@@ -1,0 +1,159 @@
+header {
+  font-style: normal;
+  border-bottom: 2px solid rgba(0,0,0,.4);
+}
+body {
+  color: #ffffff;
+  background-color: rgba(0,0,0,.85);
+  margin: 0px;
+  text-shadow: 2px 3px 5px black;
+}
+th {
+ font-size: 200%;
+ border-bottom: 1px solid rgba(0,0,0,.4);
+
+}
+body > header > h3 {
+  margin: 0px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  font-family: inherit;
+  letter-spacing: 2px;
+  font-size: 30px;
+  text-shadow: 0px 0px 0px;
+}
+.ght {
+  border:2px solid rgba(f,f,f,1);
+}
+a {
+  color: #fff;
+  font-family: italic;
+  background-color: #002000;
+  background-clip: border-box;
+  border-color: rgb(0,,0);
+  border-radius: 10px;
+  border-color: black;
+}
+
+.ght {
+  background-color:#4CAF50;
+  border: none;
+  padding: 10px 32px;
+  color: white;
+
+}
+button {
+  background-color: rgba(0,0,0,.06);
+  border: 1px solid #000;
+  color: white;
+  font-size: 16px;
+  padding:10px 5px;
+  margin: 0px 0px;
+  border-radius: 10px;
+}
+table {
+
+}
+#kjh {
+
+}
+.abc {
+  background-color: rgba(0,0,0,.4);
+  border-color: rgba(0,0,0,.7);
+  padding: 10px 10px;
+  border-radius: 2px;
+  b
+
+}
+button:hover {
+  background-color: grey;
+  border: 1px solid black;
+
+}
+button:active {
+  border:1px dotted black;
+  background-color: rgba(0,0,0,.9);
+  border-radius: 10px;
+}
+footer {
+
+
+}
+.contact {
+  padding: 10px 5px !important;
+  margin: none;
+
+}
+hr {
+  border: 1.2px solid rgba(0,0,0,.4);
+}
+.article1 {
+  width: 50%;
+  height: 60%;
+  border-left: 2px solid white;
+  padding: 10px 80px;
+
+
+}
+.article0 {
+  font-size: 72px;
+  font-family: serif;
+}
+.img2 {
+  border:1px solid white;
+  box-shadow: 2px 5px 3px white;
+}
+r {
+  background-color:
+}
+{box-sizing: border-box;}
+
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+
+.form-container .cancel {
+  background-color: red;
+}
